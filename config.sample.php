@@ -56,6 +56,7 @@ $buildings = [
     'platforms' => '',
     'voice-info' => 'W budynku informacje głosowe przekazywane przez głośniki są stosowane tylko w sytuacjach awaryjnych.',
     'induction-loop' => 'Nie są stosowane pętle indukcyjne.',
+    'parking-for-disabled' => 'Na parkingu przed budynkiem znajdują się miejsca parkingowe dla niepełnosprawnych.',
     'assistance-dog' => 'Można wejść z psem asystującym.',
     'sign-language-interpreter' => 'Brak tłumacza języka migowego na miejscu. Brak stałego tłumazca języka migowego dostępnego zdalnie (online).',
     'alternative-route' => '',
