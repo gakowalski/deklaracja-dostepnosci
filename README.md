@@ -12,6 +12,12 @@ W szablonie własnego serwisu należy dodać znacznik `meta` kierujący do dekla
 <meta name=”deklaracja-dostępności” content=”https://.../deklaracja-dostepnosci/”>
 ```
 
+## Sprawdzenie poprawności deklaracji w konsoli przeglądarki
+
+W konsoli przeglądarki uruchom prosty skrypt zawarty w [check.js](check.js). Przy braku któregoś identyfikatora zostanie wypisany komunikat. Przy braku wykrytych błędów, nie będzie żadnego komunikatu.
+
+Skrypt jest bardzo prosty i obecnie nie sprawdza identyfikatorów `a11y-ocena` oraz `a11y-audytor`, które są wymagane tylko w szczególnych warunkach.
+
 ## Dokumenty
 
 * [Ustawa z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych](http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190000848)
