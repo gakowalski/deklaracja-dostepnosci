@@ -7,6 +7,8 @@
     <title>Deklaracja dostępności</title>
   </head>
   <body>
+    <main>
     <?php require 'deklaracja-dostepnosci.php'; ?>
+    </main>
   </body>
 </html>

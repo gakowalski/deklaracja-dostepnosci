@@ -68,5 +68,5 @@ $buildings = [
 
 $mobile_apps = [
   'Nazwa aplikacji mobilnej' => 'link',
-  'Nazwa aplikacji mobilnej 2' => 'link',
+  'Nazwa aplikacji mobilnej 2' => 'link_2',
 ];
