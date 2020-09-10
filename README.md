@@ -24,7 +24,7 @@ Skrypt jest bardzo prosty i obecnie nie sprawdza identyfikatorów `a11y-ocena` o
 
 Deklaracja dostępności sama w sobie musi być dostępna.
 
-* 2020-09-10: brak błędów i bark ostrzeżeń według narzędzia https://achecker.ca/checker
+* 2020-09-10: brak błędów i brak ostrzeżeń według narzędzia https://achecker.ca/checker
 * 2020-09-10: brak błędów i brak ostrzeżeń według narzędzia https://wave.webaim.org/report
 
 ## Dokumenty

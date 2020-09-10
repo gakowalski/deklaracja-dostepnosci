@@ -21,7 +21,7 @@
   <span id="a11y-data-aktualizacja"><?=$modified ?></span>.
 </p>
 <p id="a11y-status">
-<?= ($type == 'website')? 'Strona internetowa' : 'Aplikacja mobilna' ?>
+<?= ($type == 'website')? 'Strona internetowa ' : 'Aplikacja mobilna ' ?>
 jest
 <?php switch ($compliance): ?><?php case 'full': ?>
 <strong>zgodna</strong> z ustawą <?= $ustawa ?>.
