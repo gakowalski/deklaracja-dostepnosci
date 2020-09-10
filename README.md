@@ -1,14 +1,16 @@
-# Skrypt PHP generujący deklarację dostęności
+# Skrypt PHP generujący deklarację dostępności
 
 ## Użycie
 
-Należy na bazie pliku `config.sample.php` stworzyć plik `config.php` uzupełniając odpowiednio zawarte w nim treści. Uruchomienie pliku `index.php` w przeglądarce pokaże samodzielną stronę HTML a uruchomienie `deklaracja-dostepnosci` wygeneruje fragment HTML, który można wstawić do istniejącej strony.
+Należy na bazie pliku `config.sample.php` stworzyć plik `config.php` uzupełniając odpowiednio zawarte w nim treści. Po wstawieniu plików na serwer WWW dostępne będą natępujące linki:
 
-## Uwaga
+* .../index.php - samodzielna strona HTML prezentująca treść deklaracji,
+* .../index.php?dysleksja - samodzielna strona HTML prezentująca treść deklaracji z użyciem czcionki OpenDyslexic przeznaczonej dla dyslektyków,
+* .../deklaracja-dostepnosci.php - fragment HTML, który można wstawić do istniejącej strony,
 
-W szablonie własnego serwisu należy dodać znacznik `meta` kierujący do deklaracji dostępności, np.:
+W szablonie własnego serwisu, do którego deklaracja się odnosi, należy dodać znacznik `meta` kierujący do niej, np.:
 
-```
+```html
 <meta name="deklaracja-dostępności" content="https://.../deklaracja-dostepnosci/">
 ```
 
@@ -18,7 +20,9 @@ W konsoli przeglądarki uruchom prosty skrypt zawarty w [check.js](check.js). Pr
 
 Skrypt jest bardzo prosty i obecnie nie sprawdza identyfikatorów `a11y-ocena` oraz `a11y-audytor`, które są wymagane tylko w szczególnych warunkach.
 
-## Testy zgodności
+## Testy dostępności deklaracji
+
+Deklaracja dostępności sama w sobie musi być dostępna.
 
 * 2020-09-10: brak błędów i bark ostrzeżeń według narzędzia https://achecker.ca/checker
 * 2020-09-10: brak błędów i brak ostrzeżeń według narzędzia https://wave.webaim.org/report
