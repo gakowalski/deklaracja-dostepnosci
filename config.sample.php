@@ -1,36 +1,37 @@
 <?php
 
-$type = 'website';
-// $type = 'mobile_app';
+$type = 'website';        //< gdy deklaracja dla strony internetowej
+// $type = 'mobile_app';  //< gdy deklaracja dla aplikacji mobilnej
 
-$owner = "Polska Organizacja Turystyczna";
-$name = "Polska.Travel (Narodowy Portal Turystyczny)";
-$url = "https://polska.travel";
-$published = "2019-12-23";
-$modified = "2019-12-24";
+$owner = "Polska Organizacja Turystyczna";                //< wlasciciel strony/aplikacji
+$name = "Polska.Travel (Narodowy Portal Turystyczny)";    //< nazwa strony/aplikacji
+$url = "https://polska.travel";                           //< adres internetowy strony lub skad mozna aplikacje pobrac
 
-$declaration_modified = "2019-12-25";
+$published = "2019-12-23";  //< data publikacji strony lub aplikacji
+$modified = "2019-12-24";   //< data ostatniej istotnej modyfikacji strony lub aplikacji
 
-$declaration_source = 'self-assesment';
-// $declaration_source = 'external-audit';
-// $declaration_source_author = 'Some Audit Company';
+$declaration_modified = "2019-12-25";   //< data sporzadzenia deklaracji
 
-// $compliance = 'full';
-$compliance = 'partial';
-// $compliance = 'none';
+$declaration_source = 'self-assesment';                 //< gdy deklaracje sporządzono samodzielnie
+// $declaration_source = 'external-audit';              //< gdy deklracje sporzadzil ktos z zewnatrz...
+// $declaration_source_author = 'Some Audit Company';   //< ...i kto to byl
 
-$requirements_not_met = [
+// $compliance = 'full';      //< pelna zgodnosc z ustawa
+$compliance = 'partial';      //< czesciowa zgodnosc z ustawa
+// $compliance = 'none';      //< brak zgodnosci z ustawa
+
+$requirements_not_met = [     //< niespelnione wymagania ustawy
   'filmy nie posiadają napisów dla osób głuchych',
   'formularz kontaktowy nie posiada dowiązanych etykiet tekstowych',
 ];
 
-$requirements_excluded = [
+$requirements_excluded = [    //< wylaczenia z wymagan ustawy
   'filmy zostały opublikowane przed wejściem w życie ustawy o dostępności cyfrowej',
   'poprawienie dostępności strony niosłoby za sobą nadmierne obciążenia dla podmiotu publicznego',
   'mapy są wyłączone z obowiązku zapewniania dostępności',
 ];
 
-$excessive_load = false;
+$excessive_load = false;        //< gdy nadmierne obciazenie
 $excessive_load_analysis = '';  //< art. 8, ust. 3
 $excessive_load_url = '';
 
@@ -41,9 +42,9 @@ $keyboard_shortcuts = [
   'p' => 'wyświetl poprzedni marker na mapie',
 ];
 
-$contact_name = 'Grzegorz Kowalski';
-$contact_mail = 'grzegorz.kowalski@pot.gov.pl';
-$contact_phone = '123 456 789';
+$contact_name = 'Paulina Skoczeń-Osińska';
+$contact_mail = 'paulina.skoczen@pot.gov.pl';
+$contact_phone = '225367066';
 
 $buildings = [
   'Warszawa, ul. Chałubińskiego 8' => [

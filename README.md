@@ -9,7 +9,7 @@ Należy na bazie pliku `config.sample.php` stworzyć plik `config.php` uzupełni
 W szablonie własnego serwisu należy dodać znacznik `meta` kierujący do deklaracji dostępności, np.:
 
 ```
-<meta name=”deklaracja-dostępności” content=”https://.../deklaracja-dostepnosci/”>
+<meta name="deklaracja-dostępności" content="https://.../deklaracja-dostepnosci/">
 ```
 
 ## Sprawdzenie poprawności deklaracji w konsoli przeglądarki
@@ -21,5 +21,5 @@ Skrypt jest bardzo prosty i obecnie nie sprawdza identyfikatorów `a11y-ocena` o
 ## Dokumenty
 
 * [Ustawa z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych](http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190000848)
-* [Warunki techniczne publikacji oraz struktura dokumentu elektronicznego "Deklaracji Dostępności"](https://mc.bip.gov.pl/objasnienia-prawne/warunki-techniczne-publikacji-oraz-struktura-dokumentu-elektronicznego-deklaracji-dostepnosci.html), v 1.4, ostatnia modyfikacja 2019-11-15 11:03:49
+* [Warunki techniczne publikacji oraz struktura dokumentu elektronicznego "Deklaracji Dostępności"](https://mc.bip.gov.pl/objasnienia-prawne/warunki-techniczne-publikacji-oraz-struktura-dokumentu-elektronicznego-deklaracji-dostepnosci.html), v 1.5, ostatnia modyfikacja 2020-02-11 10:22:04
 * [DECYZJA WYKONAWCZA KOMISJI (UE) 2018/1523 z dnia 11 października 2018 r. ustanawiająca wzór oświadczenia w sprawie dostępności zgodnie z dyrektywą Parlamentu Europejskiego i Rady (UE) 2016/2102 w sprawie dostępności stron internetowych i mobilnych aplikacji organów sektora publicznego](https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:32018D1523&from=EN)

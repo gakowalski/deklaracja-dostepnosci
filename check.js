@@ -1,5 +1,5 @@
 var ids = [
-  'a11y-deklaracja',
+// 'a11y-deklaracja', //< optional after 1.5
   'a11y-wstep',
   'a11y-podmiot',
   'a11y-url',
@@ -18,8 +18,15 @@ var ids = [
   'a11y-aplikacje',
 ];
 
+var correct = 0;
+
 ids.forEach(function(id) {
   if (!document.getElementById(id)) {
-    console.log('Brak ' + id);
-  };
+    console.log('✖ Brak ' + id);
+  } else {
+    console.log('✔ Jest ' + id);
+    ++correct;
+  }
 });
+
+console.log('Podsumowanie: ' + correct + '/' + ids.length + ' = ' + (100 * correct / ids.length).toFixed(1) + ' %');
