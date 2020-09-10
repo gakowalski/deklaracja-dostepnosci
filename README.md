@@ -18,6 +18,11 @@ W konsoli przeglądarki uruchom prosty skrypt zawarty w [check.js](check.js). Pr
 
 Skrypt jest bardzo prosty i obecnie nie sprawdza identyfikatorów `a11y-ocena` oraz `a11y-audytor`, które są wymagane tylko w szczególnych warunkach.
 
+## Testy zgodności
+
+* 2020-09-10: brak błędów i bark ostrzeżeń według narzędzia https://achecker.ca/checker
+* 2020-09-10: brak błędów i brak ostrzeżeń według narzędzia https://wave.webaim.org/report
+
 ## Dokumenty
 
 * [Ustawa z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych](http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20190000848)

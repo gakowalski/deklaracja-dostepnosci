@@ -34,7 +34,8 @@ jest
 <?php if ($compliance != 'full'): ?>
 <p>
     <?php if (count($requirements_not_met)): ?>
-    <ul>Niezgodności:
+    Niezgodności:
+    <ul>
       <?php foreach($requirements_not_met as $item): ?>
       <li><?= $item ?></li>
       <?php endforeach; ?>
@@ -42,7 +43,8 @@ jest
     <?php endif; ?>
 
     <?php if (count($requirements_excluded)): ?>
-    <ul>Wyłączenia:
+    Wyłączenia:
+    <ul>
       <?php foreach($requirements_excluded as $item): ?>
       <li><?= $item ?></li>
       <?php endforeach; ?>
@@ -50,7 +52,8 @@ jest
     <?php endif; ?>
 
     <?php if ($excessive_load): ?>
-    <ul>Nadmierne obciążenie:
+    Nadmierne obciążenie:
+    <ul>
       <li><?= $excessive_load_analysis; ?></li>
       <li><a id="a11y-ocena" href="<?= $excessive_load_url ?>">Wynik analizy</a></li>
     </ul>
@@ -70,7 +73,8 @@ jest
     Na stronie internetowej można używać standardowych skrótów klawiaturowych przeglądarki.
   <?php endif; ?>
   <?php if (count($keyboard_shortcuts)): ?>
-    <ul>Skróty klawiaturowe:
+    Skróty klawiaturowe:
+    <ul>
       <?php foreach($keyboard_shortcuts as $key => $item): ?>
       <li><span style="font-family: monospace, monospace;"><?= $key ?></span>: <?= $item ?></li>
       <?php endforeach; ?>
@@ -98,7 +102,8 @@ Podmiot publiczny powinien zrealizować żądanie niezwłocznie, nie później n
 <?php if (count($buildings)): ?>
 <p>
   <?php foreach($buildings as $addresss => $info): ?>
-  <ul>Budynek zlokalizowany w <?=$addresss ?>:
+  Budynek zlokalizowany w <?=$addresss ?>:
+  <ul>
     <?php foreach($info as $name => $value): ?>
     <?php if (empty($value)) continue; ?>
     <li><?= $value ?></li>
