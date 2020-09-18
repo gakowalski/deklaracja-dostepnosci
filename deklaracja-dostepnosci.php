@@ -59,6 +59,7 @@ jest
     </ul>
     <?php endif; ?>
 </p>
+<?php endif; ?>
 <p>
   Oświadczenie sporządzono dnia: <span id="a11y-data-sporzadzenie"><?= $declaration_modified ?></span>.
   <?php switch ($declaration_source): ?><?php case 'external-audit': ?>
@@ -81,7 +82,6 @@ jest
     </ul>
   <?php endif; ?>
 </p>
-<?php endif; ?>
 
 <h2 id="a11y-kontakt">Informacje zwrotne i dane kontaktowe</h2>
 <p>
